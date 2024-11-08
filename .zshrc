@@ -1,5 +1,5 @@
-export ZSH="/home/iskander/.oh-my-zsh"
-export DOTFILES="/home/iskander/.dotfiles"
+export ZSH="$HOME/.oh-my-zsh"
+export DOTFILES="$HOME/.dotfiles"
 
 ZSH_THEME="agnoster"
 HIST_STAMPS="dd/mm/yyyy"
@@ -23,10 +23,10 @@ source $DOTFILES/zsh/.aliases
 
 # Path
 
-export PATH=/home/iskander/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+export PATH=$HOME/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 
-source ~/.dotfiles/zsh/.path
+source $DOTFILES/zsh/.path
 
 # Dev
 
-source ~/.dotfiles/zsh/.dev
+source $DOTFILES/zsh/.dev
