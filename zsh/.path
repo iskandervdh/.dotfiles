@@ -1,0 +1,33 @@
+# Composer
+export PATH=$PATH:/home/iskander/.composer/vendor/bin
+export PATH=$PATH:/home/iskander/.config/composer/vendor/bin
+
+# Cargo
+export PATH=$PATH:/home/iskander/.cargo/bin
+
+# Deno
+export PATH=$PATH:/home/iskander/.deno/bin
+
+# Go
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/home/iskander/go/bin
+
+# Bun completions
+[ -s "/home/iskander/.bun/_bun" ] && source "/home/iskander/.bun/_bun"
+
+# Bun
+export BUN_INSTALL="/home/iskander/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="/home/iskander/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+
+# Turso
+export PATH="/home/iskander/.turso:$PATH"
+
+# Matlab
+export PATH=$PATH:/usr/local/MATLAB/bin
+
+# MailHog
+export PATH=$PATH:/home/iskander/go/bin/MailHog

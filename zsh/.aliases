@@ -1,0 +1,22 @@
+# Aliases
+
+alias c="clear"
+alias cls="clear"
+alias e="exit"
+alias q="exit"
+alias update="sudo apt update && sudo apt upgrade"
+alias u="update"
+alias vim="nvim"
+
+kill_port() { kill $(lsof -t -i:$1); }
+
+alias kill-port="kill_port"
+
+alias nuke-node="rm -rf ./node_modules && npm i"
+
+#alias du-sort="du -hs .[^.]* * | sort -h"
+alias du-sort="du -ahd1 | sort -h"
+
+alias ds='watch -n 2 docker ps -a'
+
+alias mailhog="MailHog"
