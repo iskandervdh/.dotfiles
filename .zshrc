@@ -26,7 +26,3 @@ source $DOTFILES/zsh/.aliases
 export PATH=$HOME/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 
 source $DOTFILES/zsh/.path
-
-# Dev
-
-source $DOTFILES/zsh/.dev

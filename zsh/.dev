@@ -1,4 +1,0 @@
-# Dev aliases
-alias dev:chase="concurrently 'php artisan serve --port=8012' 'npm run dev'"
-alias dev:ra="concurrently 'php artisan serve --port=8001' 'npm run dev'"
-alias dev:test="concurrently 'php artisan serve --port=8002' 'npm run dev'"
