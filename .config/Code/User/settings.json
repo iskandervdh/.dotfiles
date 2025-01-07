@@ -1,0 +1,206 @@
+{
+  // General settings
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80, 120],
+  "editor.suggestSelection": "first",
+  "editor.wordWrap": "on",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "git.enableSmartCommit": false,
+  "git.suggestSmartCommit": false,
+  "terminal.external.linuxExec": "gnome-terminal",
+  "terminal.integrated.fontFamily": "'Monospace', 'PowerlineSymbols'",
+  "window.autoDetectColorScheme": true,
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.preferredDarkColorTheme": "Default Dark+",
+  "workbench.startupEditor": "newUntitledFile",
+
+  // Language specific settings
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode",
+    "editor.tabSize": 2
+  },
+  "[c]": {
+    "editor.formatOnSave": true,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.wordBasedSuggestions": "off",
+    "editor.tabSize": 4
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+
+  // cSpell settings
+  "cSpell.language": "en,nl",
+  "cSpell.userWords": [
+    "astro",
+    "axios",
+    "bitstring",
+    "bitstrings",
+    "bmewburn",
+    "bson",
+    "but",
+    "chakra",
+    "chargeback",
+    "codemetrics",
+    "composables",
+    "crypte",
+    "daisyui",
+    "distro",
+    "distros",
+    "ecommerce",
+    "eindsprint",
+    "esbenp",
+    "ghostty",
+    "github",
+    "gitlab",
+    "greyscale",
+    "gsap",
+    "Hombergh",
+    "intelephense",
+    "iskander",
+    "Iskander",
+    "iskandervdh",
+    "jupyter",
+    "labelledby",
+    "laravel",
+    "Laravel",
+    "mailjet",
+    "mongodb",
+    "nodeconfiguration",
+    "noopener",
+    "noreferrer",
+    "numpy",
+    "nuxt",
+    "nuxtjs",
+    "organisation",
+    "PDF",
+    "phpdoc",
+    "pinia",
+    "Powerline",
+    "procyon",
+    "rondje",
+    "struct",
+    "swiper",
+    "tailwindcss",
+    "templ",
+    "tikkie",
+    "Tikkies",
+    "trpc",
+    "unfollow",
+    "unfollowed",
+    "videojs",
+    "vuex",
+    "websockets"
+  ],
+  "cSpell.ignoreWords": ["PDF"],
+
+  // C/CPP settings
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, AllowShortFunctionsOnASingleLine: Empty }",
+  "C_Cpp.intelliSenseEngine": "default",
+
+  // Codemetrics settings
+  "codemetrics.basics.ComplexityLevelLow": 3,
+  "codemetrics.basics.ComplexityLevelNormal": 10,
+  "codemetrics.basics.ComplexityLevelHigh": 21,
+  "codemetrics.basics.ComplexityLevelExtreme": 55,
+  "codemetrics.nodeconfiguration.AnyKeyword": 10,
+  "codemetrics.nodeconfiguration.AnyKeywordDescription": "Any keyword - Why?",
+  "codemetrics.basics.CodeLensEnabled": false,
+
+  // Prettier settings
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 120,
+
+  // Github copilot settings
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true
+  },
+
+  // JS/TS settings
+  "typescript.tsserver.maxTsServerMemory": 4096,
+  "vue.complete.casing.props": "camel",
+  "vue.complete.casing.tags": "pascal",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "headwind.classRegex": {
+    "html": "\\bclass\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\']",
+    "css": "\\B@apply\\s+([_a-zA-Z0-9\\s\\-\\:\\/]+);",
+    "javascript": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)",
+    "javascriptreact": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)",
+    "typescript": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)",
+    "typescriptreact": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)"
+  },
+  "i18n-ally.displayLanguage": "nl",
+  "svelte.enable-ts-plugin": true,
+
+  // Go settings
+  "go.toolsManagement.autoUpdate": true,
+  "files.associations": {
+    "*.templ": "templ"
+  },
+  "tailwindCSS.includeLanguages": {
+    "templ": "html"
+  },
+
+  // Python settings
+  "black-formatter.args": ["--line-length=79"],
+
+  // PHP settings
+  "php.suggest.basic": true,
+  "intelephense.phpdoc.functionTemplate": {
+    "summary": "$1",
+    "tags": ["@param ${1:$SYMBOL_TYPE} $SYMBOL_NAME $2", "@return ${1:$SYMBOL_TYPE} $2", "@throws ${1:$SYMBOL_TYPE} $2"]
+  },
+  "intelephense.telemetry.enabled": false
+}
