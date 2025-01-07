@@ -10,7 +10,6 @@
   "files.trimTrailingWhitespace": true,
   "git.enableSmartCommit": false,
   "git.suggestSmartCommit": false,
-  "terminal.external.linuxExec": "gnome-terminal",
   "terminal.integrated.fontFamily": "'Monospace', 'PowerlineSymbols'",
   "window.autoDetectColorScheme": true,
   "workbench.colorTheme": "Default Dark+",
