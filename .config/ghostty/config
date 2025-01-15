@@ -2,4 +2,4 @@ theme = "Dark+"
 font-feature = -liga
 font-feature = -calt
 font-feature = -dlig
-command = TERM=xterm-256color /usr/bin/zsh
+#command = TERM=xterm-256color /usr/bin/zsh
