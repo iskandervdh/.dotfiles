@@ -23,7 +23,6 @@
     "editor.tabSize": 2
   },
   "[c]": {
-    "editor.formatOnSave": true,
     "editor.semanticHighlighting.enabled": true,
     "editor.wordBasedSuggestions": "off",
     "editor.tabSize": 4
@@ -31,13 +30,6 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
-  },
-  "[dart]": {
-    "editor.formatOnSave": true,
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "editor.suggestSelection": "first",
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": "off"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -55,6 +47,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2
   },
+  "[markdown]": {
+    "editor.tabSize": 2
+  },
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
@@ -67,7 +62,8 @@
     "editor.tabSize": 2
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -115,6 +111,7 @@
     "labelledby",
     "laravel",
     "Laravel",
+    "lemonlabs",
     "linux",
     "mailhog",
     "mailjet",
@@ -147,8 +144,10 @@
     "unfollow",
     "unfollowed",
     "videojs",
+    "vite",
     "vuex",
-    "websockets"
+    "websockets",
+    "ziggy"
   ],
   "cSpell.ignoreWords": ["PDF"],
 
@@ -166,7 +165,7 @@
   "codemetrics.basics.CodeLensEnabled": false,
 
   // Prettier settings
-  "prettier.singleQuote": true,
+  "prettier.singleQuote": false,
   "prettier.printWidth": 120,
 
   // Github copilot settings
@@ -211,5 +210,6 @@
     "summary": "$1",
     "tags": ["@param ${1:$SYMBOL_TYPE} $SYMBOL_NAME $2", "@return ${1:$SYMBOL_TYPE} $2", "@throws ${1:$SYMBOL_TYPE} $2"]
   },
-  "intelephense.telemetry.enabled": false
+  "intelephense.telemetry.enabled": false,
+  "laravel-pint.enable": true
 }
