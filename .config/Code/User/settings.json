@@ -100,6 +100,7 @@
     "ghostty",
     "github",
     "gitlab",
+    "gitmoji",
     "greyscale",
     "gsap",
     "Hombergh",
@@ -211,5 +212,14 @@
     "tags": ["@param ${1:$SYMBOL_TYPE} $SYMBOL_NAME $2", "@return ${1:$SYMBOL_TYPE} $2", "@throws ${1:$SYMBOL_TYPE} $2"]
   },
   "intelephense.telemetry.enabled": false,
-  "laravel-pint.enable": true
+  "laravel-pint.enable": true,
+
+  // Gitmoji settings
+  "gitmoji.addCustomEmoji": [
+    {
+      "emoji": "🐋",
+      "code": ":whale:",
+      "description": "Add or Update Docker"
+    }
+  ]
 }
