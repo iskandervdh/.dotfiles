@@ -5,19 +5,9 @@ export PATH=$PATH:$HOME/.config/composer/vendor/bin
 # Cargo
 export PATH=$PATH:$HOME/.cargo/bin
 
-# Deno
-export PATH=$PATH:$HOME/.deno/bin
-
 # Go
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$HOME/go/bin
-
-# Bun completions
-[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
-
-# Bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
 
 # pnpm
 export PNPM_HOME="$HOME/.local/share/pnpm"
@@ -25,9 +15,6 @@ export PATH="$PNPM_HOME:$PATH"
 
 # Turso
 export PATH="$HOME/.turso:$PATH"
-
-# Matlab
-export PATH=$PATH:/usr/local/MATLAB/bin
 
 # MailHog
 export PATH=$PATH:$HOME/go/bin/MailHog
