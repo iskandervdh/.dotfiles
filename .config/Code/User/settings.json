@@ -245,5 +245,7 @@
   "workbench.editorAssociations": {
     "*.copilotmd": "vscode.markdown.preview.editor",
     "*.svg": "default"
-  }
+  },
+  "i18n-ally.ignoredLocales": ["vendor"],
+  "i18n-ally.ignoreFiles": ["nova/**", "nova-two-factor/*.json"]
 }
