@@ -17,3 +17,11 @@ fi
 
 # Create symbolic link to gtk-3.0 settings.ini
 ln -s $DOTFILES/.config/gtk-3.0/settings.ini ~/.config/gtk-3.0/settings.ini
+
+# Move rofi config.rasi to config.rasi.bak if it exists
+if [ -f ~/.config/rofi/config.rasi ]; then
+    mv ~/.config/rofi/config.rasi ~/.config/rofi/config.rasi.bak
+fi
+
+# Create symbolic link to rofi config
+ln -s $DOTFILES/.config/rofi/config.rasi ~/.config/rofi/config.rasi
