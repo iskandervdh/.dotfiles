@@ -1,0 +1,19 @@
+#!/bin/bash
+
+DOTFILES="$HOME/.dotfiles"
+
+# Move i3 config to config.bak if it exists
+if [ -f ~/.config/i3/config ]; then
+    mv ~/.config/i3/config ~/.config/i3/config.bak
+fi
+
+# Create symbolic link to i3 config
+ln -s $DOTFILES/.config/i3/config ~/.config/i3/config
+
+# Move gtk-3.0 settings.ini to settings.ini.bak if it exists
+if [ -f ~/.config/gtk-3.0/settings.ini ]; then
+    mv ~/.config/gtk-3.0/settings.ini ~/.config/gtk-3.0/settings.ini.bak
+fi
+
+# Create symbolic link to gtk-3.0 settings.ini
+ln -s $DOTFILES/.config/gtk-3.0/settings.ini ~/.config/gtk-3.0/settings.ini
