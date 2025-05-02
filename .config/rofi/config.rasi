@@ -3,5 +3,5 @@ configuration {
   combi-modes: [ window, drun, run ];
 }
 
-@theme "gruvbox-dark"
-//@theme "/home/iskander/.local/share/rofi/themes/rounded-gray-dark.rasi"
+//@theme "gruvbox-dark"
+@theme "/home/iskander/.local/share/rofi/themes/rounded-gray-dark.rasi"
