@@ -26,4 +26,8 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
+# Set the cargo environment
+. "$HOME/.cargo/env"
+
+# Set the gtk theme to a dark theme to make all apps that use it dark mode
 export GTK_THEME=Adwaita-dark
