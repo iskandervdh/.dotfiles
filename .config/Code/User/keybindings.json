@@ -1,0 +1,13 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+'",
+    "command": "merge-conflict.next",
+    "when": "mergeConflictsCount && !isMergeEditor && mergeConflictsCount != '0'"
+  },
+  {
+    "key": "ctrl+shift+'",
+    "command": "merge-conflict.previous",
+    "when": "mergeConflictsCount && !isMergeEditor && mergeConflictsCount != '0'"
+  }
+]
