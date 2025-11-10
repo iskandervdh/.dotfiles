@@ -85,6 +85,12 @@
     "editor.tabSize": 2
   },
 
+  // File associations
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.svg": "default"
+  },
+
   // cSpell settings
   "cSpell.language": "en,nl",
   "cSpell.userWords": [
@@ -193,6 +199,11 @@
     "plaintext": false,
     "markdown": true
   },
+  "github.copilot.nextEditSuggestions.enabled": true,
+
+  // MCP Chat settings
+  "chat.mcp.gallery.enabled": true,
+  "chat.mcp.autostart": "newAndOutdated",
 
   // JS/TS settings
   "typescript.tsserver.maxTsServerMemory": 4096,
@@ -242,10 +253,11 @@
       "description": "Add or Update Docker"
     }
   ],
-  "workbench.editorAssociations": {
-    "*.copilotmd": "vscode.markdown.preview.editor",
-    "*.svg": "default"
-  },
+
+  // Error Lens settings
+  "errorLens.excludeBySource": ["PHP(PHP6602)"],
+
+  // i18n Ally settings
   "i18n-ally.ignoredLocales": ["vendor"],
   "i18n-ally.ignoreFiles": ["nova/**", "nova-two-factor/*.json"]
 }
