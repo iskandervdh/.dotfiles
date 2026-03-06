@@ -1,5 +1,8 @@
-# Aliases
+###########
+# Aliases #
+###########
 
+# Common
 alias c="clear"
 alias cls="clear"
 alias e="exit"
@@ -20,3 +23,7 @@ alias du-sort="du -ahd1 | sort -h"
 alias ds='watch -n 2 docker ps -a'
 
 alias mailhog="MailHog"
+
+# PHP
+alias phpstan="./vendor/bin/phpstan analyse"
+alias pint="./vendor/bin/pint"
