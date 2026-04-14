@@ -206,7 +206,7 @@
   "chat.mcp.autostart": "newAndOutdated",
 
   // JS/TS settings
-  "typescript.tsserver.maxTsServerMemory": 4096,
+  "js/ts.tsserver.maxMemory": 4096,
   "vue.complete.casing.props": "camel",
   "vue.complete.casing.tags": "pascal",
   "prisma.showPrismaDataPlatformNotification": false,
